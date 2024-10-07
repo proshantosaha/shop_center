@@ -1,8 +1,11 @@
-// import heroBg from "../public/assets/header.webp";
+import heroBg from "../assets/header.webp";
 
 const Header = () => {
   return (
-    <header className="h-[500px] bg-center flex flex-col-reverse bg-cover w-full ">
+    <header
+      className="h-[500px] bg-center flex flex-col-reverse bg-cover w-full "
+      style={{ backgroundImage: `url(${heroBg.src})` }}
+    >
       <div className="mb-5 w-10/12 max-w-7xl text-white mx-auto">
         <h1 className="text-2xl lg:text-3xl font-serif">
           Introducing LWS Shop Center

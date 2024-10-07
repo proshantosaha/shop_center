@@ -26,15 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {" "}
-        <Navbar />
-        <Header />
-        <main>
-          {/* <!-- Product section start --> */}
-          <section className="w-11/12 lg:w-10/12 max-w-7xl mx-auto py-10">
-            {" "}
-            {children}
-          </section>
-        </main>
+        <Navbar /> {children}
         <Footer />
       </body>
     </html>
